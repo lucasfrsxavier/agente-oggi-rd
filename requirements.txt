@@ -1,0 +1,17 @@
+streamlit
+python-dotenv
+pypdf
+
+# LangChain 1.x (LCEL)
+langchain==1.2.3
+langchain-groq>=0.1.7
+langchain-community
+langchain-text-splitters
+langchain-core
+
+# Vetores e embeddings
+sentence-transformers
+faiss-cpu
+huggingface-hub
+
+tiktoken
