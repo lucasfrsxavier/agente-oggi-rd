@@ -78,7 +78,7 @@ with st.spinner("Processando base de conhecimento..."):
 if vectorstore:
 
     llm = ChatGroq(
-        model="llama3-70b-8192",
+        model="llama3-8b-8192",
         temperature=0
     )
 
